@@ -1,5 +1,6 @@
 h1 {
-    background-color:red
+    background-color:red;
+    color: white;
 }
 
 form {
@@ -24,11 +25,11 @@ form input:focus {
     color: palevioletred;
 }
 
-form input:nth-child(3) {
+form input:nth-child(4) {
     width: 192px;
     background-color: rgba(216, 112, 147,.3);
 }
 
-form input:focus:nth-child(3) {
+form input:focus:nth-child(4) {
     font-weight: bolder;
 }
